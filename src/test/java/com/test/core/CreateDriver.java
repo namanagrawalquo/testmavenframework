@@ -31,7 +31,6 @@ public class CreateDriver {
 		if(browser.equalsIgnoreCase("firefox"))
 		{
 			//Open Firefox browser
-			System.out.println("In firefox block");
 			System.setProperty("webdriver.gecko.driver", FirefoxDriverPath);
 			fd = new FirefoxDriver();
 			log.debug("Firefox browser started.");

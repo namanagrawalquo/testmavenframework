@@ -1,4 +1,6 @@
-10:48:37,119 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:37 - Firefox browser started.
-10:48:53,559 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:28 - Test Case Started: getTitleofContactPage
-10:49:01,597 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:35 - getTitleofContactPage completed.
-10:49:01,831 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:61 - Browser closed.
+13:07:38,450 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:36 - Firefox browser started.
+13:07:38,608 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:27 - Test Case Started: getTitleofContactPage
+13:07:47,930 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:34 - Click on Menu link
+13:07:48,292 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:29 - Click on Contact link
+13:07:58,860 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:35 - getTitleofContactPage completed.
+13:07:59,194 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:60 - Browser closed.

@@ -13,7 +13,6 @@ public class GetTitleofContact_Test extends CreateDriver{
 
 	ResourceBundle rb = ResourceBundle.getBundle("Elements"); // Get elements of web page from property file
 	Logger log = Logger.getLogger("devpinoyLogger"); // To generate the log file
-	boolean checkbutton;
 	String dir = System.getProperty("user.dir");
 	String file_path = dir+"\\datafile\\Form.xls";
 	String ScreenShot_path = dir+"\\ScreenShot\\";
@@ -25,9 +24,9 @@ public class GetTitleofContact_Test extends CreateDriver{
 	public void getTitleofContactPage() {
 
 		try{
-			fd.get(rb.getString("url"));
 			log.debug("Test Case Started: getTitleofContactPage");
 			cm =new contactpage(fd);
+			fd.get(rb.getString("url"));
 			cm.clickonmenu();
 			fd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 			cm.clickoncontact();

@@ -1,4 +1,6 @@
-24/07/2017 10:48:37 devpinoyLogger Firefox browser started.
-24/07/2017 10:48:53 devpinoyLogger Test Case Started: getTitleofContactPage
-24/07/2017 10:49:01 devpinoyLogger getTitleofContactPage completed.
-24/07/2017 10:49:01 devpinoyLogger Browser closed.
+24/07/2017 13:07:38 devpinoyLogger Firefox browser started.
+24/07/2017 13:07:38 devpinoyLogger Test Case Started: getTitleofContactPage
+24/07/2017 13:07:47 devpinoyLogger Click on Menu link
+24/07/2017 13:07:48 devpinoyLogger Click on Contact link
+24/07/2017 13:07:58 devpinoyLogger getTitleofContactPage completed.
+24/07/2017 13:07:59 devpinoyLogger Browser closed.
