@@ -1,0 +1,4 @@
+10:48:37,119 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:37 - Firefox browser started.
+10:48:53,559 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:28 - Test Case Started: getTitleofContactPage
+10:49:01,597 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:35 - getTitleofContactPage completed.
+10:49:01,831 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:61 - Browser closed.
