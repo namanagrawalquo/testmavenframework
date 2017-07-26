@@ -1,6 +1,7 @@
-13:07:38,450 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:36 - Firefox browser started.
-13:07:38,608 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:27 - Test Case Started: getTitleofContactPage
-13:07:47,930 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:34 - Click on Menu link
-13:07:48,292 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:29 - Click on Contact link
-13:07:58,860 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:35 - getTitleofContactPage completed.
-13:07:59,194 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:60 - Browser closed.
+15:46:20,256 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:94 - Firefox browser started.
+15:46:20,411 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:27 - Test Case Started: Get_Title_of_Contact_Page
+15:46:35,315 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:33 - Click on Menu link
+15:46:35,811 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:14 - Implicit Wait: 5sec.
+15:46:35,812 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:28 - Click on Contact link
+15:46:47,756 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:35 - getTitleofContactPage completed.
+15:46:55,707 DEBUG devpinoyLogger<strong><strong>{1}</strong></strong>:114 - Browser closed.

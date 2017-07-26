@@ -1,6 +1,7 @@
-24/07/2017 13:07:38 devpinoyLogger Firefox browser started.
-24/07/2017 13:07:38 devpinoyLogger Test Case Started: getTitleofContactPage
-24/07/2017 13:07:47 devpinoyLogger Click on Menu link
-24/07/2017 13:07:48 devpinoyLogger Click on Contact link
-24/07/2017 13:07:58 devpinoyLogger getTitleofContactPage completed.
-24/07/2017 13:07:59 devpinoyLogger Browser closed.
+26/07/2017 15:46:20 devpinoyLogger Firefox browser started.
+26/07/2017 15:46:20 devpinoyLogger Test Case Started: Get_Title_of_Contact_Page
+26/07/2017 15:46:35 devpinoyLogger Click on Menu link
+26/07/2017 15:46:35 devpinoyLogger Implicit Wait: 5sec.
+26/07/2017 15:46:35 devpinoyLogger Click on Contact link
+26/07/2017 15:46:47 devpinoyLogger getTitleofContactPage completed.
+26/07/2017 15:46:55 devpinoyLogger Browser closed.

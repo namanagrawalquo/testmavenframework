@@ -1,55 +1,59 @@
 package com.test.cases;
 
 import java.util.ResourceBundle;
-import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import com.test.core.CreateDriver;
 import com.test.pom.contactpage;
+import com.test.utility.CommonFunctions;
 
-public class GetTitleofContact_Test extends CreateDriver{
+public class GetTitleofContact_Test extends CreateDriver {
 
-	ResourceBundle rb = ResourceBundle.getBundle("Elements"); // Get elements of web page from property file
+	// Get read from the properties file
+	ResourceBundle rb = ResourceBundle.getBundle("Elements"); 
+	ResourceBundle basictitle = ResourceBundle.getBundle("Titles");
+	
 	Logger log = Logger.getLogger("devpinoyLogger"); // To generate the log file
-	String dir = System.getProperty("user.dir");
-	String file_path = dir+"\\datafile\\Form.xls";
-	String ScreenShot_path = dir+"\\ScreenShot\\";
 
 	contactpage cm;
+	CommonFunctions cf = new CommonFunctions();
 
+	@Test(priority = 1)
+	public void Get_Title_of_Contact_Page() {
+
+		try {
+			log.debug("Test Case Started: Get_Title_of_Contact_Page");
+			fd.get(rb.getString("url"));
+			cm = new contactpage(fd);
+			cm.clickonmenu();
+			cf.ImplicitWait_inSec(fd, 5);
+			cm.clickoncontact();
+			String sTitle = cm.gettitle();
+			Assert.assertEquals(sTitle, basictitle.getString("ContactPage"));
+			log.debug("Test Case Completed: Get_Title_of_Contact_Page");
+		} catch (Exception ex) {
+			log.debug("Exception occured: " + ex);
+		}
+	}
 
 	@Test(priority = 2)
-	public void getTitleofContactPage() {
+	public void Get_Title_of_Home_Page() {
 
-		try{
-			log.debug("Test Case Started: getTitleofContactPage");
-			cm =new contactpage(fd);
-			fd.get(rb.getString("url"));
-			cm.clickonmenu();
-			fd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-			cm.clickoncontact();
-			String sTitle=cm.gettitle();
-			System.out.println("Contact Page Title is: "+sTitle);
-			log.debug("getTitleofContactPage completed.");
-		}
-		catch(Exception ex)
-		{
-			log.debug("Exception occured: "+ex);
-		}
-	}
-
-	/*@Test(priority=1)
-	public void getTitleofHomePage()
-	{
-		//log.debug("getTitleofHomePage started.");
 		fd.get(rb.getString("url"));
-		Homepage_methods hm=new Homepage_methods(fd);
-		String sTitlehome=hm.gettitleofhome();
-		System.out.println("Home Page title is: "+sTitlehome);
-		log.debug("getTitleofHomePage completed.");
+		System.out.println("Title is: " + fd.getTitle());
+
 	}
-	 */
+
+	@Test(priority = 3)
+	public void Get_Title_of_About_Page() {
+		fd.get(rb.getString("url"));
+	}
+
+	@Test(priority = 4)
+	public void Get_Title_of_About_Page1() {
+		fd.get(rb.getString("url"));
+	}
 
 }
