@@ -1,4 +1,4 @@
-package tst;
+package tstting;
 
 public class test {
 
